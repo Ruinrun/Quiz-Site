@@ -1,19 +1,28 @@
 body {
-	background-color: aliceblue;
+	background-image: url(drinking-from-lake.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+	border: 5px solid black;
 }
 
 .panel {
-	margin-top: 8%;
+	margin-top: 1%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: navy;
+	color: white;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .question {
+	margin-top: 1%;
 	font-size: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 2em;
 }
 
 .options {
@@ -24,13 +33,13 @@ body {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	position: fixed;
-	top: 40%;
-	left: 40%;
+	top: 50%;
+	font-size: 1.5em;
+	text-align: left;
 }
 
 button {
-	margin-right: 75px;
-	margin-top: 8%;
+	margin-top: 25%;
 	font-size: 20px;
 	padding: 10px 20px;
 	background-color: #4f98c2;
@@ -41,5 +50,12 @@ button {
 
 #score {
 	font-size: 30px;
-	color: darkslategray;
+	color: white;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+
+#header1{
+	font-size: 3.5em;
+	margin-bottom: 0%;
 }

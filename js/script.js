@@ -1,31 +1,40 @@
 // Questions that will be asked
 const Questions = [{
-	q: "What is capital of India?",
-	a: [{ text: "Gandhinagar", isCorrect: false },
-	{ text: "Surat", isCorrect: false },
-	{ text: "Delhi", isCorrect: true },
-	{ text: "Mumbai", isCorrect: false }
+	q: "What is the domestic cat breed most closely related to wildcats?",
+	a: [{ text: "Sphynx", isCorrect: false },
+	{ text: "Maine Coon", isCorrect: false },
+	{ text: "Savannah", isCorrect: true },
+	{ text: "Siamese", isCorrect: false }
 	]
 
 },
 {
-	q: "What is the capital of Thailand?",
-	a: [{ text: "Lampang", isCorrect: false, isSelected: false },
-	{ text: "Phuket", isCorrect: false },
-	{ text: "Ayutthaya", isCorrect: false },
-	{ text: "Bangkok", isCorrect: true }
+	q: "What is known as the city of cats?",
+	a: [{ text: "Aoshima", isCorrect: false, isSelected: false },
+	{ text: "Nekoshima", isCorrect: false },
+	{ text: "Cairo", isCorrect: false },
+	{ text: "Istanbul", isCorrect: true }
 	]
 
 },
 {
-	q: "What is the capital of Gujarat",
-	a: [{ text: "Surat", isCorrect: false },
-	{ text: "Vadodara", isCorrect: false },
-	{ text: "Gandhinagar", isCorrect: true },
-	{ text: "Rajkot", isCorrect: false }
+	q: "What beverage do cats enjoy most?",
+	a: [{ text: "Orange Juice", isCorrect: false },
+	{ text: "Milk", isCorrect: false },
+	{ text: "Water", isCorrect: true },
+	{ text: "Apple Juice", isCorrect: false }
 	]
 
-}
+},
+{
+	q: "Which cat is best for those with allergies? ",
+	a: [{ text: "Sphynx", isCorrect: false },
+	{ text: "Maine Coon", isCorrect: false },
+	{ text: "Donsky", isCorrect: true },
+	{ text: "Devon Rex", isCorrect: false }
+	]
+
+},
 
 ]
 
